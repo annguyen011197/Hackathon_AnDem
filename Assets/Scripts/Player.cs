@@ -61,8 +61,8 @@ public class Player :  MonoBehaviour {
         float acceleration;
         if (ApplicationUtil.platform == RuntimePlatform.Android)
         {
-            //acceleration = Input.acceleration.x;
-            acceleration = 0.1f;
+            acceleration = Input.acceleration.x;
+            //acceleration = 0.1f;
         }
         else
         {
