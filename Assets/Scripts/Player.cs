@@ -35,7 +35,7 @@ public class Player :  MonoBehaviour {
         float y = Mathf.Sin(timerCounter) * (gameZone.GetComponent<Renderer>().bounds.size.y / 2f);
         var newPosition = transform.position;
 
-        transform.position = new Vector3(x, y, 0f);
+        transform.position = new Vector3(x, y, -1.0f);
         //Debug.Log(transform.position);
 
        
